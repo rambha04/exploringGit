@@ -1,3 +1,67 @@
+# Git and GitHub Learning Documentation
+
+## Overview
+
+This document summarizes the key concepts and commands I learned about **Git** and **GitHub**, two essential tools for version control and collaboration in software development.
+
+---
+
+## What is Git?
+
+Git is a distributed version control system (DVCS) that tracks changes in files and facilitates collaboration among developers. It allows:
+
+- **Version tracking**: Maintains a history of changes to the codebase.
+- **Branching and merging**: Enables parallel development and seamless integration.
+- **Distributed repositories**: Every user has a complete copy of the project.
+
+### Why Use Git?
+
+- **Collaboration**: Work with teams efficiently without overwriting each other’s changes.
+- **Backup**: Acts as a reliable backup with full version history.
+- **Rollback**: Revert to earlier versions of files in case of errors.
+
+---
+
+## What is GitHub?
+
+GitHub is a cloud-based platform that hosts Git repositories. It provides:
+
+- Remote repositories for sharing and collaboration.
+- Tools for pull requests, issue tracking, and project management.
+- Integrations with CI/CD tools for automated workflows.
+
+---
+
+## Key Git Commands
+
+### Setup
+
+- `git config --global user.name "Your Name"`: Set your username.
+- `git config --global user.email "youremail@example.com"`: Set your email.
+
+### Repository Initialization
+
+- `git init`: Initialize a new Git repository locally.
+- `git clone <repository-url>`: Clone an existing repository.
+
+### Staging and Committing Changes
+
+- `git add <file>`: Stage changes for commit.
+- `git commit -m "Commit message"`: Commit changes with a message.
+
+### Branching and Merging
+
+- `git branch`: List all branches.
+- `git branch <branch-name>`: Create a new branch.
+- `git checkout <branch-name>`: Switch to a specific branch.
+- `git merge <branch-name>`: Merge changes from another branch.
+
+### Remote Repositories
+
+- `git remote add origin <repository-url>`: Link a local repo to a remote repository.
+- `git pull`: Fetch and merge changes from the remote repository.
+- `git push`: Push local changes to the remote repository.
+
 # Git Commands Cheat Sheet
 
 A comprehensive reference guide for commonly used Git commands.
