@@ -168,3 +168,5 @@ git filter-branch --force --index-filter \
 Remember to always be careful with commands that modify history (`reset`, `rebase`, `filter-branch`) as they can affect other developers if used on shared branches.
 
 For more detailed information, consult the [official Git documentation](https://git-scm.com/doc).
+
+Please be tuned in into this page for more information on Version Control Systems.
